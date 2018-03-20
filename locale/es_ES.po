@@ -1,0 +1,219 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.party,competitor:"
+msgid "Competitor"
+msgstr "Competidor"
+
+msgctxt "field:party.party,opportunities:"
+msgid "Opportunities"
+msgstr "Oportunidades"
+
+msgctxt "field:party.party,strengths:"
+msgid "Strengths"
+msgstr "Fortalezas"
+
+msgctxt "field:party.party,threats:"
+msgid "Threats"
+msgstr "Amenazas"
+
+msgctxt "field:party.party,weaknesses:"
+msgid "Weaknesses"
+msgstr "Debilidades"
+
+msgctxt "field:product.competitor,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:product.competitor,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:product.competitor,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:product.competitor,opportunities:"
+msgid "Opportunities"
+msgstr "Oportunidades"
+
+msgctxt "field:product.competitor,party:"
+msgid "Party"
+msgstr "Terceros"
+
+msgctxt "field:product.competitor,product:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "field:product.competitor,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:product.competitor,strengths:"
+msgid "Strengths"
+msgstr "Fortalezas"
+
+msgctxt "field:product.competitor,threats:"
+msgid "Threats"
+msgstr "Amenazas"
+
+msgctxt "field:product.competitor,weaknesses:"
+msgid "Weaknesses"
+msgstr "Debilidades"
+
+msgctxt "field:product.competitor,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:product.competitor,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:product.template,competitors:"
+msgid "Competitors"
+msgstr "Competidores"
+
+msgctxt "field:product.template,opportunities:"
+msgid "Opportunities"
+msgstr "Oportunidades"
+
+msgctxt "field:product.template,strengths:"
+msgid "Strengths"
+msgstr "Fortalezas"
+
+msgctxt "field:product.template,threats:"
+msgid "Threats"
+msgstr "Amenazas"
+
+msgctxt "field:product.template,weaknesses:"
+msgid "Weaknesses"
+msgstr "Debilidades"
+
+msgctxt "field:sale.opportunity,competitors:"
+msgid "Competitors"
+msgstr "Competidores"
+
+msgctxt "field:sale.opportunity.competitor,competitor:"
+msgid "Competitor"
+msgstr "Competidor"
+
+msgctxt "field:sale.opportunity.competitor,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:sale.opportunity.competitor,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:sale.opportunity.competitor,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.opportunity.competitor,notes:"
+msgid "Notes"
+msgstr "Notas"
+
+msgctxt "field:sale.opportunity.competitor,opportunity:"
+msgid "Opportunity"
+msgstr "Oportunidad"
+
+msgctxt "field:sale.opportunity.competitor,party:"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt "field:sale.opportunity.competitor,product:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "field:sale.opportunity.competitor,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:sale.opportunity.competitor,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "field:sale.opportunity.competitor,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:sale.opportunity.competitor,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "model:product.competitor,name:"
+msgid "Product Competitor"
+msgstr "Producto competidor"
+
+msgctxt "model:sale.opportunity.competitor,name:"
+msgid "Sale Opportunity Competitor"
+msgstr "Competidor oportunidad"
+
+msgctxt "selection:sale.opportunity.competitor,state:"
+msgid "Competing"
+msgstr "Compitiendo"
+
+msgctxt "selection:sale.opportunity.competitor,state:"
+msgid "Lost"
+msgstr "Perdido"
+
+msgctxt "selection:sale.opportunity.competitor,state:"
+msgid "Won"
+msgstr "Ganado"
+
+msgctxt "view:party.party:"
+msgid "External Origin"
+msgstr "Origen externo"
+
+msgctxt "view:party.party:"
+msgid "Harmful"
+msgstr "Perjudicial"
+
+msgctxt "view:party.party:"
+msgid "Helpful"
+msgstr "Beneficioso"
+
+msgctxt "view:party.party:"
+msgid "Internal Origin"
+msgstr "Origen intern"
+
+msgctxt "view:party.party:"
+msgid "SWOT"
+msgstr "DAFO"
+
+msgctxt "view:product.competitor:"
+msgid "External Origin"
+msgstr "Origen externo"
+
+msgctxt "view:product.competitor:"
+msgid "Harmful"
+msgstr "Perjudicial"
+
+msgctxt "view:product.competitor:"
+msgid "Helpful"
+msgstr "Beneficioso"
+
+msgctxt "view:product.competitor:"
+msgid "Internal Origin"
+msgstr "Origen interno"
+
+msgctxt "view:product.template:"
+msgid "External Origin"
+msgstr "Origen externo"
+
+msgctxt "view:product.template:"
+msgid "Harmful"
+msgstr "Perjudicial"
+
+msgctxt "view:product.template:"
+msgid "Helpful"
+msgstr "Beneficioso"
+
+msgctxt "view:product.template:"
+msgid "Internal Origin"
+msgstr "Origen interno"
+
+msgctxt "view:product.template:"
+msgid "SWOT"
+msgstr "DAFO"

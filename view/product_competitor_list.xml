@@ -1,0 +1,8 @@
+<tree>
+    <field name="product"/>
+    <field name="party"/>
+    <field name="strengths"/>
+    <field name="weaknesses"/>
+    <field name="opportunities"/>
+    <field name="threats"/>
+</tree>

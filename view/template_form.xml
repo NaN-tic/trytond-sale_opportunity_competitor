@@ -1,0 +1,32 @@
+<data>
+    <xpath expr="/form/notebook" position="inside">
+        <page string="SWOT" id="swot" col="5">
+            <label string="" id="first" xexpand="0" xfill="0"/>
+            <separator string="Helpful" id="helpful" colspan="2"/>
+            <separator string="Harmful" id="harmful" colspan="2"/>
+
+            <label string="" id="second" xexpand="0" xfill="0"/>
+            <label name="strengths" colspan="2"/>
+            <label name="weaknesses" colspan="2"/>
+
+            <label string="Internal Origin" id="internal-origin" xexpand="0" xfill="0"/>
+            <field name="strengths" colspan="2"/>
+            <field name="weaknesses" colspan="2"/>
+
+            <separator id="internal-separator" colspan="5"/>
+
+            <label string="" id="third" xexpand="0" xfill="0"/>
+            <label name="opportunities" colspan="2"/>
+            <label name="threats" colspan="2"/>
+
+            <label string="External Origin" id="external-origin" xexpand="0" xfill="0"/>
+            <field name="threats" colspan="2"/>
+            <field name="opportunities" colspan="2"/>
+
+            <separator id="external-separator" colspan="5"/>
+
+            <field name="competitors" colspan="5"/>
+        </page>
+    </xpath>
+</data>
+

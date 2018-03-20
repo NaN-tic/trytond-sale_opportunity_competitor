@@ -1,0 +1,14 @@
+<form>
+    <label name="opportunity"/>
+    <field name="opportunity" colspan="3"/>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="product"/>
+    <field name="product"/>
+    <label name="competitor"/>
+    <field name="competitor"/>
+    <label name="state"/>
+    <field name="state"/>
+    <label name="notes" colspan="4"/>
+    <field name="notes" colspan="4"/>
+</form>

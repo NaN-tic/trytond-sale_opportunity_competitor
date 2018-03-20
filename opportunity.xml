@@ -1,0 +1,81 @@
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="opportunity_view_form">
+            <field name="model">sale.opportunity</field>
+            <field name="name">opportunity_form</field>
+            <field name="inherit" ref="sale_opportunity.opportunity_view_form"/>
+        </record>
+
+        <record model="ir.ui.view" id="party_view_form">
+            <field name="model">party.party</field>
+            <field name="name">party_form</field>
+            <field name="inherit" ref="party.party_view_form"/>
+        </record>
+
+        <record model="ir.ui.view" id="template_view_form">
+            <field name="model">product.template</field>
+            <field name="inherit" ref="product.template_view_form"/>
+            <field name="name">template_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="opportunity_competitor_view_form">
+            <field name="model">sale.opportunity.competitor</field>
+            <field name="type">form</field>
+            <field name="name">opportunity_competitor_form</field>
+        </record>
+        <record model="ir.ui.view" id="opportunity_competitor_view_tree">
+            <field name="model">sale.opportunity.competitor</field>
+            <field name="type">tree</field>
+            <field name="name">opportunity_competitor_list</field>
+        </record>
+        <record model="ir.model.access" id="access_sale">
+            <field name="model" search="[('model', '=', 'sale.opportunity.competitor')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_sale_sale">
+            <field name="model" search="[('model', '=', 'sale.opportunity.competitor')]"/>
+            <field name="group" ref="sale.group_sale"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.ui.view" id="product_competitor_view_form">
+            <field name="model">product.competitor</field>
+            <field name="type">form</field>
+            <field name="name">product_competitor_form</field>
+        </record>
+        <record model="ir.ui.view" id="product_competitor_view_tree">
+            <field name="model">product.competitor</field>
+            <field name="type">tree</field>
+            <field name="name">product_competitor_list</field>
+        </record>
+        <record model="ir.model.access" id="access_product_competitor">
+            <field name="model" search="[('model', '=', 'product.competitor')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_product_competitor_product_admin">
+            <field name="model" search="[('model', '=', 'product.competitor')]"/>
+            <field name="group" ref="product.group_product_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_product_competitor_sale">
+            <field name="model" search="[('model', '=', 'product.competitor')]"/>
+            <field name="group" ref="sale.group_sale"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+    </data>
+</tryton>

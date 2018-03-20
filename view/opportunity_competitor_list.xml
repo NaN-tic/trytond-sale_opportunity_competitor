@@ -1,0 +1,8 @@
+<tree editable="bottom">
+    <field name="opportunity"/>
+    <field name="party"/>
+    <field name="product"/>
+    <field name="competitor"/>
+    <field name="state"/>
+    <field name="notes"/>
+</tree>
