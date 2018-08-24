@@ -6,9 +6,8 @@ __all__ = ['Template', 'Party', 'ProductCompetitor', 'Competitor',
     'Opportunity']
 
 
-class Template:
+class Template(metaclass=PoolMeta):
     __name__ = 'product.template'
-    __metaclass__ = PoolMeta
     strengths = fields.Text('Strengths')
     weaknesses = fields.Text('Weaknesses')
     opportunities = fields.Text('Opportunities')
@@ -17,9 +16,8 @@ class Template:
         'Competitors')
 
 
-class Party:
+class Party(metaclass=PoolMeta):
     __name__ = 'party.party'
-    __metaclass__ = PoolMeta
     competitor = fields.Boolean('Competitor')
     strengths = fields.Text('Strengths')
     weaknesses = fields.Text('Weaknesses')
@@ -80,8 +78,7 @@ class Competitor(ModelSQL, ModelView):
                 return competitor.id
 
 
-class Opportunity:
+class Opportunity(metaclass=PoolMeta):
     __name__ = 'sale.opportunity'
-    __metaclass__ = PoolMeta
     competitors = fields.One2Many('sale.opportunity.competitor', 'opportunity',
         'Competitors')
