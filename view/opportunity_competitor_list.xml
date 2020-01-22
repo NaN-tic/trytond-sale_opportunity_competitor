@@ -1,4 +1,4 @@
-<tree editable="bottom">
+<tree editable="1">
     <field name="opportunity"/>
     <field name="party"/>
     <field name="product"/>
