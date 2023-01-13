@@ -16,6 +16,10 @@ class Template(metaclass=PoolMeta):
         'Competitors')
 
 
+class Product(metaclass=PoolMeta):
+    __name__ = 'product.product'
+
+
 class Party(metaclass=PoolMeta):
     __name__ = 'party.party'
     competitor = fields.Boolean('Competitor')

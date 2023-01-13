@@ -6,6 +6,7 @@ from . import opportunity
 def register():
     Pool.register(
         opportunity.Template,
+        opportunity.Product,
         opportunity.Party,
         opportunity.ProductCompetitor,
         opportunity.Competitor,
