@@ -29,14 +29,14 @@
             <field name="name">opportunity_competitor_list</field>
         </record>
         <record model="ir.model.access" id="access_sale">
-            <field name="model" search="[('model', '=', 'sale.opportunity.competitor')]"/>
+            <field name="model">sale.opportunity.competitor</field>
             <field name="perm_read" eval="False"/>
             <field name="perm_write" eval="False"/>
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
         <record model="ir.model.access" id="access_sale_sale">
-            <field name="model" search="[('model', '=', 'sale.opportunity.competitor')]"/>
+            <field name="model">sale.opportunity.competitor</field>
             <field name="group" ref="sale.group_sale"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="True"/>
@@ -55,14 +55,14 @@
             <field name="name">product_competitor_list</field>
         </record>
         <record model="ir.model.access" id="access_product_competitor">
-            <field name="model" search="[('model', '=', 'product.competitor')]"/>
+            <field name="model">product.competitor</field>
             <field name="perm_read" eval="False"/>
             <field name="perm_write" eval="False"/>
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
         <record model="ir.model.access" id="access_product_competitor_product_admin">
-            <field name="model" search="[('model', '=', 'product.competitor')]"/>
+            <field name="model">product.competitor</field>
             <field name="group" ref="product.group_product_admin"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="True"/>
@@ -70,7 +70,7 @@
             <field name="perm_delete" eval="True"/>
         </record>
         <record model="ir.model.access" id="access_product_competitor_sale">
-            <field name="model" search="[('model', '=', 'product.competitor')]"/>
+            <field name="model">product.competitor</field>
             <field name="group" ref="sale.group_sale"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="True"/>
